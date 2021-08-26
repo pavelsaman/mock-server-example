@@ -1,0 +1,35 @@
+{
+    "priority": 1,
+    "httpRequest": {
+        "path": "/ads",
+        "method": "GET"
+    },
+    "httpResponse": {
+        "statusCode": 200,
+        "headers": [
+            {
+                "name": "Content-Type",
+                "values": ["application/json; charset=utf-8"]
+            }
+        ],
+        "body": {
+            "data": [
+                {
+                    "identifier": "94942095558582279281",
+                    "name": "Ford-boční blikač",
+                    "categoryName": "Světla, xenony, žárovky",
+                    "userName": "Bruno",
+                    "userId": 81928,
+                    "adUrl": "https://petklub.cz/Ads/Detail/94942095558582279281",
+                    "created": "2015-11-01T16:15:11.0000000Z",
+                    "status": "Blocked"
+                }
+            ],
+            "paging": {
+                "limit": 25,
+                "offset": 0,
+                "total": 1
+            }
+        }
+    }
+}

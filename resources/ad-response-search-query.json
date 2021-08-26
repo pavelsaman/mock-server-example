@@ -1,0 +1,41 @@
+{
+    "priority": 2,
+    "httpRequest": {
+        "path": "/ads",
+        "method": "GET",
+        "queryStringParameters": [
+            {
+                "name": "name",
+                "values": ["abc"]
+            }
+        ]
+    },
+    "httpResponse": {
+        "statusCode": 200,
+        "headers": [
+            {
+                "name": "Content-Type",
+                "values": ["application/json; charset=utf-8"]
+            }
+        ],
+        "body": {
+            "data": [
+                {
+                    "identifier": "94942095558582279289",
+                    "name": "abc",
+                    "categoryName": "Světla, xenony, žárovky",
+                    "userName": "Bruno",
+                    "userId": 81928,
+                    "adUrl": "https://petklub.cz/Ads/Detail/94942095558582279289",
+                    "created": "2016-12-01T16:15:11.0000000Z",
+                    "status": "Archived"
+                }
+            ],
+            "paging": {
+                "limit": 25,
+                "offset": 0,
+                "total": 1
+            }
+        }
+    }
+}
