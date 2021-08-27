@@ -1,9 +1,9 @@
+const config = require('./config.json');
 const mockServer = require('mockserver-node');
 const mockClient = require('./server-client');
-const mockserverPort = 1080;
 
 mockServer
-    .start_mockserver({serverPort: mockserverPort, verbose: true})
+    .start_mockserver({serverPort: config.port, verbose: true})
     .then(
         mockClient,
         function (error) {
